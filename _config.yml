@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Shayan Kebriti"
   pronouns         : # example: "she/her"  
-  bio              : "TBD"
+  bio              : "B.Sc. in Computer Engineering @ Shahid Beheshti University"
   location         : "Tehran, Iran"
-  employer         : "Shahid Beheshti University"
+  employer         :
   uri              : # URL
   email            : "shayankebriti@gmail.com" 
 
