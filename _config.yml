@@ -25,8 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "Shayan Kebriti"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Iran"
+  bio              : "TBD"
+  location         : "Tehran, Iran"
   employer         : "Shahid Beheshti University"
   uri              : # URL
   email            : "shayankebriti@gmail.com" 
@@ -355,17 +355,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-# Main navigation links
-main:
-  - title: "Publications"
-    url: /publications/
-  - title: "Projects"
-    url: /projects/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "CV"
-    url: /cv/
-  - title: "Personal Life"
-    url: /personal-life/
