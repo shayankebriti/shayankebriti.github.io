@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Homepage"
+title                    : "Shayan Kebriti"
 title_separator          : "-"
 name                     : &name "Shayan Kebriti"
 description              : &description "personal description"
@@ -34,7 +34,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=uj1R5J4AAAAJ&hl"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            :
