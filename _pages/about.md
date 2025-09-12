@@ -1190,6 +1190,25 @@ You can browse a categorized list of my open-source projects <a href="https://gi
   </div>
 </div>
 
+<div class="education-card" aria-label="Education entry: Sampad Diploma in Mathematics and Physics">
+  <div class="education-info">
+    <div class="education-title">
+      <strong>Sep 2019 – Jan 2021</strong><br/>
+      Diploma, Mathematics & Physics, National Organization for Development of Exceptional Talents (Sampad), Iran
+    </div>
+
+    <div class="edu-metrics" aria-label="Education metrics">
+      <span class="chip" title="Cumulative GPA">GPA: 4.00/4.00</span>
+      <span class="chip" title="Ranked 1st in the school">Ranked 1st in the school</span>
+    </div>
+  </div>
+
+  <div class="education-logo">
+    <img src="../images/sampad.jfif" alt="National Organization for Development of Exceptional Talents (Sampad) logo" />
+  </div>
+</div>
+
+
 # Experience
 
 <div class="experience-card">
