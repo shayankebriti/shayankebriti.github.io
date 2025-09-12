@@ -1170,7 +1170,8 @@ You can browse a categorized list of my open-source projects <a href="https://gi
       <span style="font-size:1rem;"><strong>Relevant 4/4 Courses: </strong></span> 
       <span class="course-item" role="listitem">Computer Vision</span>
       <span class="course-item" role="listitem">Machine Learning</span>
-      <span class="course-item" role="listitem">Deep RL (Graduate Course)</span>
+      <span class="course-item" role="listitem">
+      Deep RL (Graduate Course | <a href="docs/EarnHFT Efficient Hierarchical Reinforcement Learning for  High Frequency Trading.pdf">My Seminar</a>)</span>
       <span class="course-item" role="listitem">Data Mining</span>
       <span class="course-item" role="listitem">Artificial Intelligence</span>
       <span class="course-item" role="listitem">Algorithms Design</span>
@@ -1178,7 +1179,7 @@ You can browse a categorized list of my open-source projects <a href="https://gi
       <span class="course-item" role="listitem">Linear Algebra</span>
       <span class="course-item" role="listitem">Probability &amp; Statistics</span>
       <span class="course-item" role="listitem">Signal &amp; Systems</span>
-      <span class="course-item" role="listitem">Robotics</span>
+      <span class="course-item" role="listitem">Fundamentals of Robotics</span>
     </div>
 
 
