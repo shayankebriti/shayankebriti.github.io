@@ -1171,7 +1171,7 @@ You can browse a categorized list of my open-source projects <a href="https://gi
       <span class="course-item" role="listitem">Computer Vision</span>
       <span class="course-item" role="listitem">Machine Learning</span>
       <span class="course-item" role="listitem">
-      Deep RL (Graduate Course | <a href="[docs/DRL-Seminar.pdf](https://github.com/shayankebriti/shayankebriti.github.io/blob/master/docs/DRL-Seminar.pdf)">My Seminar</a>)</span>
+      Deep RL (Graduate Course | <a href="https://github.com/shayankebriti/shayankebriti.github.io/blob/master/docs/DRL-Seminar.pdf">My Seminar</a>)</span>
       <span class="course-item" role="listitem">Data Mining</span>
       <span class="course-item" role="listitem">Artificial Intelligence</span>
       <span class="course-item" role="listitem">Algorithms Design</span>
