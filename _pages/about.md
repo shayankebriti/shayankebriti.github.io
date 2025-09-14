@@ -1211,7 +1211,7 @@ You can browse a categorized list of my open-source projects <a href="https://gi
 
 
 # Experience
-For additional details about each experience, please see my CV or contact me directly.
+For additional details about each experience, please see my CV or contact me.
 
 <div class="experience-card">
   <div class="experience-info">
