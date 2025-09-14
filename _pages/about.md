@@ -912,11 +912,11 @@ I am open to working on projects in these areas and I would love to contribute. 
   </div>
 
   <div class="pub-body">
-    <h3 class="pub-title">A Framework for Anatomical Mesh Generation From Medical Images for In-Silico Simulations</h3>
+    <h3 class="pub-title">A Framework for Anatomical Mesh Reconstruction From Medical Images for In-Silico Simulations</h3>
 
     <!-- (Text unchanged) -->
     <p class="pub-abstract">
-      This ongoing work aims to develop a novel deep learning framework for anatomical mesh generation from medical images without requiring manual annotations. The framework consists of an anatomical structure <strong>segmentation network</strong>, <strong>a graph neural network for 3D mesh control-handle generation</strong>, and a <strong>deformation stage</strong> for final enhancements. The generated meshes are designed for use in in-silico simulations for <strong>multiple modalities</strong> such as <strong>CT</strong> and <strong>MR</strong> scans, enabling <strong>virtual experiments</strong> and <strong>computational modeling</strong> of anatomy for <strong>research</strong>, <strong>surgical planning</strong>, and <strong>medical device testing</strong>. More updates coming soon!
+      This ongoing work aims to develop a novel deep learning framework for anatomical mesh generation from medical images without requiring manual annotations. The framework consists of an anatomical structure <strong>segmentation network</strong>, <strong>GNN-based mesh control-handles displacement prediction</strong>, and a final <strong>deformation</strong> stage. The generated meshes are designed for use in in-silico simulations for <strong>multiple modalities</strong> such as <strong>CT</strong>, <strong>MR</strong>, and <strong>US</strong> scans, enabling <strong>virtual experiments</strong> and <strong>computational modeling</strong> of anatomy for <strong>surgical planning</strong>, <strong>medical device testing</strong>, and further researches. More updates coming soon!
     </p>
   </div>
 </div>
@@ -1211,6 +1211,7 @@ You can browse a categorized list of my open-source projects <a href="https://gi
 
 
 # Experience
+For additional details about each experience, please see my CV or contact me directly.
 
 <div class="experience-card">
   <div class="experience-info">
