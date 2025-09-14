@@ -877,7 +877,7 @@ I am open to working on projects in these areas and I would love to contribute. 
         (<strong>CBF, CBV, MTT, AUC</strong>). 
         It also offers advanced visualization features like mirror-mode maps and customizable ROI definition 
         for detailed regional assessment of cerebral hemodynamics. 
-        <strong>The software is intended for real clinical use in hospitals under the supervision of Tehran University 
+        <strong>The software is intended for real clinical use in the most reputable hospitals in Iran, under the supervision of Tehran University
         of Medical Sciences.</strong>
       </p>
     </details>
