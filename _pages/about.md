@@ -1270,7 +1270,7 @@ For additional details about each experience, please see my CV or contact me.
     <div class="experience-title">
       Roshan AI
     </div>
-    <div class="experience-role">ML Engineer & Data Scientist (Computer Vision and Trading Models)</div>
+    <div class="experience-role">Machine Learning Engineer (Computer Vision and Trading Models)</div>
     <div class="experience-topics">Jul 2024 - Nov 2024</div>
   </div>
   <div class="experience-logo">
