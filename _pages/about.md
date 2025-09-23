@@ -968,20 +968,6 @@ You can browse a categorized list of my open-source projects <a href="https://gi
       </div>
     </article>
 
-    <!-- Project 3 -->
-    <article class="project-card">
-      <div class="project-media">
-        <img src="images/projects/rock-paper.gif" alt="demo gif" loading="lazy">
-      </div>
-      <div class="project-body">
-        <h3 class="project-title">Rock–Paper–Scissors Automation with YOLOv11 and Cheat/Win Overlays</h3>
-        <a class="project-gh" href="https://github.com/SBUformers/Rock-Paper-Scissors-Simulator" target="_blank" rel="noopener">
-          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 .2a8 8 0 0 0-2.53 15.6c.4.08.55-.17.55-.38l-.01-1.33c-2.25.49-2.72-1.09-2.72-1.09-.36-.93-.88-1.18-.88-1.18-.72-.5.05-.49.05-.49.79.06 1.2.83 1.2.83.71 1.2 1.86.85 2.31.65.07-.52.28-.85.5-1.05-1.8-.2-3.69-.9-3.69-3.98 0-.88.31-1.6.82-2.16-.08-.2-.36-1.01.08-2.11 0 0 .67-.22 2.2.82A7.7 7.7 0 0 1 8 3.87c.68 0 1.36.09 2 .26 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.28.82 2.16 0 3.1-1.9 3.78-3.71 3.98.29.25.54.73.54 1.48l-.01 2.2c0 .21.15.46.55.38A8 8 0 0 0 8 .2z"/></svg>
-          GitHub
-        </a>
-      </div>
-    </article>
-
     <!-- Project 4 -->
     <article class="project-card">
       <div class="project-media">
@@ -996,6 +982,20 @@ You can browse a categorized list of my open-source projects <a href="https://gi
       </div>
     </article>
 
+    <!-- Project 3 -->
+    <article class="project-card">
+      <div class="project-media">
+        <img src="images/projects/rock-paper.gif" alt="demo gif" loading="lazy">
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">Rock–Paper–Scissors Automation with YOLOv11 and Cheat/Win Overlays</h3>
+        <a class="project-gh" href="https://github.com/SBUformers/Rock-Paper-Scissors-Simulator" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 .2a8 8 0 0 0-2.53 15.6c.4.08.55-.17.55-.38l-.01-1.33c-2.25.49-2.72-1.09-2.72-1.09-.36-.93-.88-1.18-.88-1.18-.72-.5.05-.49.05-.49.79.06 1.2.83 1.2.83.71 1.2 1.86.85 2.31.65.07-.52.28-.85.5-1.05-1.8-.2-3.69-.9-3.69-3.98 0-.88.31-1.6.82-2.16-.08-.2-.36-1.01.08-2.11 0 0 .67-.22 2.2.82A7.7 7.7 0 0 1 8 3.87c.68 0 1.36.09 2 .26 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.28.82 2.16 0 3.1-1.9 3.78-3.71 3.98.29.25.54.73.54 1.48l-.01 2.2c0 .21.15.46.55.38A8 8 0 0 0 8 .2z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </article>
+    
     <!-- Project 5 -->
     <article class="project-card">
       <div class="project-media">
