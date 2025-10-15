@@ -1356,7 +1356,7 @@ Shayan is a delighted, talented, and hardworking individual who consistently sur
         <img src="images/mahdi-mohammadi.jpg" alt="Portrait of Mohammadreza, Mahdi, Mohammadi">
       </div>
       <div class="endorse-meta">
-        <h3 class="endorse-name">Mahdi Mohammadi, Ph.D. in Medical Physics</h3>
+        <h3 class="endorse-name">Mahdi Mohammadi, Assistant Professor, Ph.D. in Medical Physics</h3>
         <div class="endorse-affil">Tehran University of Medical Sciences • NIAG</div>
         <div class="endorse-links">
           <a href="https://www.linkedin.com/in/mahdi-mohammadi-98755717b/" target="_blank" rel="noopener" aria-label="LinkedIn, M. D. Mohammadi" title="LinkedIn">
