@@ -916,8 +916,8 @@ I am open to working on projects in these areas and I would love to contribute. 
 
     <!-- (Text unchanged) -->
     <p class="pub-abstract">
-      This work presents a novel deep learning framework for anatomical mesh generation directly from medical images without manual annotation. The system integrates an anatomical structure **segmentation network** with a **GNN-based template deformation** stage to produce patient-specific cardiac meshes. The resulting meshes are suitable for in silico cardiac simulations and **digital-twin** applications, enabling virtual experiments, computational modeling, surgical planning, medical device testing, and further research.
-
+      This work presents a novel deep learning framework for anatomical mesh generation directly from medical images without manual annotation. The system integrates an anatomical structure <strong>segmentation network</strong> with a <strong>GNN-based template deformation</strong> stage to produce patient-specific cardiac meshes. The resulting meshes are suitable for in silico cardiac simulations and <strong>digital-twin</strong> applications, enabling virtual experiments, computational modeling, surgical planning, medical device testing, and further research.
+      
       For further information, please contact me.
     </p>
   </div>
