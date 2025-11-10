@@ -912,11 +912,13 @@ I am open to working on projects in these areas and I would love to contribute. 
   </div>
 
   <div class="pub-body">
-    <h3 class="pub-title">A Framework for Anatomical Mesh Reconstruction From Medical Images for In-Silico Simulations</h3>
+    <h3 class="pub-title">Global Structure-Aware Template-Based Deformation Model for 3D Cardiac Mesh Reconstruction for In-Silico Trials</h3>
 
     <!-- (Text unchanged) -->
     <p class="pub-abstract">
-      This ongoing work aims to develop a novel deep learning framework for anatomical mesh generation from medical images without requiring manual annotations. The framework consists of an anatomical structure <strong>segmentation network</strong>, <strong>GNN-based mesh control-handles displacement prediction</strong>, and a final <strong>deformation</strong> stage. The generated meshes are designed for use in in-silico simulations for <strong>multiple modalities</strong> such as <strong>CT</strong>, <strong>MR</strong>, and <strong>US</strong> scans, enabling <strong>virtual experiments</strong> and <strong>computational modeling</strong> of anatomy for <strong>surgical planning</strong>, <strong>medical device testing</strong>, and further researches. More updates coming soon!
+      This work presents a novel deep learning framework for anatomical mesh generation directly from medical images without manual annotation. The system integrates an anatomical structure **segmentation network** with a **GNN-based template deformation** stage to produce patient-specific cardiac meshes. The resulting meshes are suitable for in silico cardiac simulations and **digital-twin** applications, enabling virtual experiments, computational modeling, surgical planning, medical device testing, and further research.
+
+      For further information, please contact me.
     </p>
   </div>
 </div>
