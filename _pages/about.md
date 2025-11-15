@@ -788,7 +788,7 @@ I am open to working on projects in these areas and I would love to contribute. 
 <div class="pub-card">
   <div class="pub-media">
     <span class="pub-badge">
-      Under Review (
+      Under Revision (
       <a href="https://www.scimagojr.com/journalsearch.php?q=17271&tip=sid" target="_blank">
         Medical Image Analysis
       </a>)
