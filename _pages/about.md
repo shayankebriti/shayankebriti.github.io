@@ -777,7 +777,7 @@ redirect_from:
 
 # About Me  
 I am **Shayan Kebriti**, a Computer Engineering undergraduate at Shahid Beheshti University in Tehran, Iran.  
-My research interests include **Machine Learning**, **Computer Vision**, **Medical Image Computing**, and **Computational Modeling**.  
+My research interests include **Machine Learning**, **Computer Vision**, **Medical Image Computing**, and **AI for Healthcare**.  
 I am open to working on projects in these areas and I would love to contribute. I am also seeking **Master’s** or **PhD** opportunities.  
 
 *Email:* [shayankebriti@gmail.com](mailto:shayankebriti@gmail.com)
