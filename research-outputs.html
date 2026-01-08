@@ -4,131 +4,72 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Selected Research Outputs — Shayan Kebriti</title>
-  <meta name="description" content="Selected research outputs referenced in my CV and research portfolio." />
 
-  <!-- Nice typography (optional but recommended) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
     :root{
-      --bg: #0b1220;
-      --card: rgba(255,255,255,.08);
-      --card2: rgba(255,255,255,.06);
-      --text: rgba(255,255,255,.92);
-      --muted: rgba(255,255,255,.70);
-      --muted2: rgba(255,255,255,.55);
+      --bg: #0e1424;
+      --card: rgba(255,255,255,.06);
       --border: rgba(255,255,255,.12);
-      --accent: #4aa3ff;
-      --accent2: #7cdbff;
-      --chip: rgba(74,163,255,.14);
-      --shadow: 0 10px 35px rgba(0,0,0,.35);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.65);
+      --accent: #7cc8ff;
+      --chip: rgba(124,200,255,.14);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
     }
 
     *{ box-sizing:border-box; }
-    html,body{ height:100%; }
+
     body{
       margin:0;
-      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-      background:
-        radial-gradient(1200px 700px at 10% 10%, rgba(74,163,255,.20), transparent 55%),
-        radial-gradient(900px 600px at 90% 20%, rgba(124,219,255,.18), transparent 55%),
-        radial-gradient(900px 600px at 60% 90%, rgba(155,89,255,.14), transparent 60%),
-        var(--bg);
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: linear-gradient(180deg, #10172b 0%, #0e1424 100%);
       color: var(--text);
       line-height: 1.55;
     }
 
     a{
-      color: var(--accent2);
+      color: var(--accent);
       text-decoration: none;
-      border-bottom: 1px solid rgba(124,219,255,.35);
+      border-bottom: 1px solid rgba(124,200,255,.35);
     }
-    a:hover{ border-bottom-color: rgba(124,219,255,.9); }
+    a:hover{ border-bottom-color: rgba(124,200,255,.9); }
 
     .wrap{
       max-width: 980px;
       margin: 0 auto;
-      padding: 44px 18px 70px;
+      padding: 48px 20px 64px;
     }
 
-    .hero{
-      display:flex;
-      gap: 18px;
-      align-items: flex-start;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      margin-bottom: 22px;
-    }
-
-    .title{
+    h1{
       margin:0;
-      font-size: clamp(26px, 3vw, 34px);
+      font-size: 32px;
       letter-spacing: -0.02em;
-      line-height: 1.15;
     }
 
     .subtitle{
-      margin: 10px 0 0;
+      margin-top: 10px;
       max-width: 70ch;
       color: var(--muted);
-      font-size: 15.5px;
-    }
-
-    .pillbar{
-      display:flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 16px;
-    }
-
-    .pill{
-      display:inline-flex;
-      align-items:center;
-      gap: 8px;
-      padding: 7px 10px;
-      border: 1px solid var(--border);
-      background: rgba(255,255,255,.04);
-      border-radius: 999px;
-      color: var(--muted);
-      font-size: 12.5px;
-      backdrop-filter: blur(10px);
-    }
-    .dot{
-      width: 8px;
-      height: 8px;
-      border-radius: 99px;
-      background: var(--accent);
-      box-shadow: 0 0 0 3px rgba(74,163,255,.18);
+      font-size: 15px;
     }
 
     .grid{
+      margin-top: 28px;
       display:grid;
       grid-template-columns: 1fr;
-      gap: 14px;
-      margin-top: 18px;
+      gap: 18px;
     }
 
     .card{
       border: 1px solid var(--border);
-      background: linear-gradient(180deg, var(--card), var(--card2));
-      border-radius: 18px;
+      background: var(--card);
+      border-radius: 16px;
       box-shadow: var(--shadow);
-      overflow:hidden;
-      backdrop-filter: blur(12px);
-    }
-
-    .card-inner{
       padding: 18px 18px 16px;
-    }
-
-    .card-head{
-      display:flex;
-      align-items:flex-start;
-      justify-content: space-between;
-      gap: 14px;
-      flex-wrap: wrap;
     }
 
     .project{
@@ -141,7 +82,6 @@
       display:flex;
       gap: 8px;
       flex-wrap: wrap;
-      align-items:center;
       margin-top: 8px;
     }
 
@@ -149,14 +89,13 @@
       font-size: 12px;
       padding: 5px 9px;
       border-radius: 999px;
-      border: 1px solid rgba(74,163,255,.25);
+      border: 1px solid rgba(124,200,255,.25);
       background: var(--chip);
       color: rgba(224,244,255,.95);
-      white-space: nowrap;
     }
 
     .meta{
-      margin: 10px 0 0;
+      margin-top: 10px;
       color: var(--muted);
       font-size: 14px;
       max-width: 90ch;
@@ -164,33 +103,33 @@
 
     .section{
       margin-top: 14px;
-      border-top: 1px solid rgba(255,255,255,.10);
       padding-top: 14px;
+      border-top: 1px solid rgba(255,255,255,.10);
       display:grid;
-      grid-template-columns: 1.2fr .8fr;
-      gap: 14px;
+      grid-template-columns: 1.3fr .7fr;
+      gap: 16px;
     }
 
-    @media (max-width: 860px){
+    @media (max-width: 820px){
       .section{ grid-template-columns: 1fr; }
     }
 
     .k{
       margin:0 0 8px;
-      color: rgba(255,255,255,.88);
       font-weight: 600;
       font-size: 13px;
-      letter-spacing: .02em;
       text-transform: uppercase;
+      color: rgba(255,255,255,.85);
     }
 
     ul{
-      margin: 0;
+      margin:0;
       padding-left: 18px;
       color: var(--muted);
       font-size: 14px;
     }
-    li{ margin: 6px 0; }
+
+    li{ margin:6px 0; }
 
     .links{
       display:flex;
@@ -201,217 +140,143 @@
     .btn{
       display:inline-flex;
       align-items:center;
-      gap: 8px;
       padding: 9px 12px;
-      border-radius: 12px;
+      border-radius: 10px;
       border: 1px solid var(--border);
-      background: rgba(255,255,255,.05);
-      color: rgba(255,255,255,.90);
+      background: rgba(255,255,255,.04);
+      color: var(--text);
       font-weight: 600;
       font-size: 13px;
       text-decoration:none;
-      box-shadow: 0 8px 22px rgba(0,0,0,.22);
     }
     .btn:hover{
-      border-color: rgba(124,219,255,.65);
-      background: rgba(255,255,255,.07);
-    }
-
-    .mutednote{
-      color: var(--muted2);
-      font-size: 12.5px;
-      margin-top: 10px;
+      border-color: rgba(124,200,255,.65);
     }
 
     .footer{
-      margin-top: 22px;
+      margin-top: 26px;
       padding-top: 16px;
       border-top: 1px solid rgba(255,255,255,.10);
-      color: var(--muted2);
+      color: rgba(255,255,255,.55);
       font-size: 12.5px;
       display:flex;
-      gap: 10px;
       justify-content: space-between;
       flex-wrap: wrap;
-    }
-
-    code{
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      font-size: 0.95em;
-      color: rgba(255,255,255,.88);
-      background: rgba(255,255,255,.08);
-      padding: 2px 6px;
-      border-radius: 8px;
-      border: 1px solid rgba(255,255,255,.10);
+      gap: 8px;
     }
   </style>
 </head>
 
 <body>
-  <div class="wrap">
+<div class="wrap">
 
-    <div class="hero">
-      <div>
-        <h1 class="title">Selected Research Outputs</h1>
-        <p class="subtitle">
-          Curated index of research artefacts referenced in my CV and 2-page portfolio appendix.
-          Public links are provided where permitted; clinical software is described with availability constraints.
-        </p>
+  <h1>Selected Research Outputs</h1>
+  <p class="subtitle">
+    Curated index of research artefacts referenced in my CV and research portfolio.
+  </p>
 
-        <div class="pillbar">
-          <span class="pill"><span class="dot"></span> Three selected outputs</span>
-          <span class="pill">Medical imaging • robustness • reproducibility</span>
-          <span class="pill">Last updated: <strong style="color:rgba(255,255,255,.88);font-weight:600;">Nov 2025</strong></span>
-        </div>
+  <div class="grid">
+
+    <!-- FractMorph -->
+    <div class="card">
+      <h2 class="project">FractMorph</h2>
+      <div class="tagrow">
+        <span class="chip">Deformable registration</span>
+        <span class="chip">Transformer</span>
+        <span class="chip">Reproducible research</span>
       </div>
+      <p class="meta">
+        Multi-domain transformer framework for deformable medical image registration
+        (preprint available; journal revision ongoing, Medical Image Analysis, IF 11.8).
+      </p>
 
-      <div class="pillbar" style="justify-content:flex-end;">
-        <span class="pill">Shayan Kebriti</span>
-        <span class="pill"><a href="https://shayankebriti.github.io" style="border-bottom:none;">Website</a></span>
-        <span class="pill"><a href="mailto:shayankebriti@gmail.com" style="border-bottom:none;">Email</a></span>
+      <div class="section">
+        <div>
+          <p class="k">Summary</p>
+          <ul>
+            <li><strong>Problem:</strong> robust multi-modal deformable registration under anatomical variability.</li>
+            <li><strong>Contribution:</strong> spatial + fractional Fourier domain transformer with full training and ablation pipeline.</li>
+            <li><strong>Evidence:</strong> competitive benchmarks and open-source reproducible implementation.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="k">Links</p>
+          <div class="links">
+            <a class="btn" href="https://arxiv.org/abs/2508.12445">Paper</a>
+            <a class="btn" href="https://github.com/shayankebriti/FractMorph">Code</a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="grid">
+    <!-- Perfusion MRI -->
+    <div class="card">
+      <h2 class="project">Perfusion MRI Analysis Toolkit</h2>
+      <div class="tagrow">
+        <span class="chip">Clinical software</span>
+        <span class="chip">BET segmentation</span>
+        <span class="chip">Quantitative imaging</span>
+      </div>
+      <p class="meta">
+        Clinical-facing perfusion MRI pipeline designed for real-world deployment.
+      </p>
 
-      <!-- FractMorph -->
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-head">
-            <div>
-              <h2 class="project">FractMorph</h2>
-              <div class="tagrow">
-                <span class="chip">Deformable registration</span>
-                <span class="chip">Transformer</span>
-                <span class="chip">Reproducible code</span>
-              </div>
-              <p class="meta">
-                Multi-domain transformer framework for deformable medical image registration.
-                <br><span style="color:rgba(255,255,255,.78);">
-                Preprint available; journal revision ongoing (Medical Image Analysis, IF 11.8).
-                </span>
-              </p>
-            </div>
-          </div>
-
-          <div class="section">
-            <div>
-              <p class="k">Highlights</p>
-              <ul>
-                <li><strong>Problem:</strong> robust alignment across modalities under anatomical variability and frequency-domain mismatch.</li>
-                <li><strong>Contribution:</strong> multi-domain modelling with spatial + fractional Fourier representations; end-to-end training and evaluation pipeline with ablations.</li>
-                <li><strong>Evidence:</strong> competitive benchmark results; open-source implementation enabling reproduction and extension.</li>
-              </ul>
-            </div>
-
-            <div>
-              <p class="k">Links</p>
-              <div class="links">
-                <a class="btn" href="https://arxiv.org/abs/2508.12445">Paper (arXiv)</a>
-                <a class="btn" href="https://github.com/shayankebriti/FractMorph">Code (GitHub)</a>
-              </div>
-              <div class="mutednote">Tip: panel members can validate quickly from a single codebase and preprint.</div>
-            </div>
-          </div>
+      <div class="section">
+        <div>
+          <p class="k">Summary</p>
+          <ul>
+            <li><strong>Problem:</strong> reliable perfusion quantification in heterogeneous tumour cases.</li>
+            <li><strong>Contribution:</strong> preprocessing, BET-based segmentation, ROI tools, and quantitative perfusion metrics.</li>
+            <li><strong>Evidence:</strong> validated metrics via independent numerical integration and clinical cross-checks.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="k">Availability</p>
+          <p class="meta">
+            Internal clinical software; not publicly released.
+          </p>
         </div>
       </div>
-
-      <!-- Perfusion MRI -->
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-head">
-            <div>
-              <h2 class="project">Perfusion MRI Analysis Toolkit</h2>
-              <div class="tagrow">
-                <span class="chip">Clinical pipeline</span>
-                <span class="chip">BET-based segmentation</span>
-                <span class="chip">Quantitative perfusion</span>
-              </div>
-              <p class="meta">
-                Clinical-facing perfusion MRI pipeline designed under real deployment constraints.
-                <br><span style="color:rgba(255,255,255,.78);">
-                Availability: internal clinical software (not publicly released).
-                </span>
-              </p>
-            </div>
-          </div>
-
-          <div class="section">
-            <div>
-              <p class="k">Highlights</p>
-              <ul>
-                <li><strong>Problem:</strong> reliable perfusion quantification requires robust preprocessing and segmentation under heterogeneous tumour appearances.</li>
-                <li><strong>Contribution:</strong> preprocessing modules, <strong>BET-based segmentation workflows</strong> for complex tumour cases, interactive ROI tools, quantitative perfusion metrics.</li>
-                <li><strong>Evidence:</strong> validated metric computation via independent numerical integration (trapezoidal &amp; Simpson’s rules) and cross-checks against existing workflows on clinical cases.</li>
-              </ul>
-            </div>
-
-            <div>
-              <p class="k">Availability</p>
-              <div class="mutednote">
-                Not publicly released due to clinical deployment and governance constraints.
-                Documentation/demonstrations can be provided upon request where permitted.
-              </div>
-              <div class="mutednote" style="margin-top:10px;">
-                (If you later obtain permission, you can link a de-identified demo or a methods-only repo.)
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Cardiac mesh + MedMesh -->
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-head">
-            <div>
-              <h2 class="project">Cardiac Mesh Reconstruction &amp; MedMesh</h2>
-              <div class="tagrow">
-                <span class="chip">3D anatomy</span>
-                <span class="chip">GNN supervision</span>
-                <span class="chip">In-silico trials</span>
-              </div>
-              <p class="meta">
-                Structure-aware template-based deformation for automated 3D cardiac mesh reconstruction, supported by <strong>MedMesh</strong> (dataset generation &amp; inspection tooling).
-                <br><span style="color:rgba(255,255,255,.78);">
-                Research and software artefacts available; method development ongoing.
-                </span>
-              </p>
-            </div>
-          </div>
-
-          <div class="section">
-            <div>
-              <p class="k">Highlights</p>
-              <ul>
-                <li><strong>Problem:</strong> existing approaches often use CNN features only, which can miss global anatomical context needed for accurate meshes.</li>
-                <li><strong>Contribution:</strong> propose <strong>GNN-based segmentation supervision</strong> to capture local + global context and improve mesh fidelity; implemented supporting dataset/pipeline tooling via MedMesh.</li>
-                <li><strong>Evidence:</strong> reproducible software artefacts for dataset generation and inspection; designed for downstream simulation and in-silico trial workflows.</li>
-              </ul>
-            </div>
-
-            <div>
-              <p class="k">Links</p>
-              <div class="links">
-                <a class="btn" href="https://github.com/shayankebriti/MedMesh">MedMesh (GitHub)</a>
-              </div>
-              <div class="mutednote">You can later add a short preprint link here when available.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
 
-    <div class="footer">
-      <div>
-        Suggested citation: <code>Shayan Kebriti — Selected Research Outputs</code>
+    <!-- Cardiac Mesh -->
+    <div class="card">
+      <h2 class="project">Cardiac Mesh Reconstruction &amp; MedMesh</h2>
+      <div class="tagrow">
+        <span class="chip">3D anatomy</span>
+        <span class="chip">GNN supervision</span>
+        <span class="chip">In-silico trials</span>
       </div>
-      <div>
-        Back to: <a href="https://shayankebriti.github.io">shayankebriti.github.io</a>
+      <p class="meta">
+        Structure-aware template-based deformation for automated 3D cardiac mesh reconstruction,
+        supported by MedMesh dataset generation tooling.
+      </p>
+
+      <div class="section">
+        <div>
+          <p class="k">Summary</p>
+          <ul>
+            <li><strong>Problem:</strong> CNN-only feature extraction lacks global anatomical context.</li>
+            <li><strong>Contribution:</strong> GNN-based segmentation supervision capturing local and global structure.</li>
+            <li><strong>Evidence:</strong> reproducible dataset generation and mesh processing software.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="k">Link</p>
+          <div class="links">
+            <a class="btn" href="https://github.com/shayankebriti/MedMesh">MedMesh</a>
+          </div>
+        </div>
       </div>
     </div>
 
   </div>
+
+  <div class="footer">
+    <div>Shayan Kebriti</div>
+    <div><a href="https://shayankebriti.github.io">shayankebriti.github.io</a></div>
+  </div>
+
+</div>
 </body>
 </html>
