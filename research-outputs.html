@@ -1,26 +1,417 @@
-<h1>Selected Research Outputs</h1>
-<p>This page indexes selected research artefacts referenced in my CV and research portfolio.</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Selected Research Outputs — Shayan Kebriti</title>
+  <meta name="description" content="Selected research outputs referenced in my CV and research portfolio." />
 
-<hr>
+  <!-- Nice typography (optional but recommended) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<h2>FractMorph</h2>
-<p><strong>Multi-domain transformer for deformable medical image registration</strong></p>
-<ul>
-  <li>Preprint available; journal revision ongoing (Medical Image Analysis, IF 11.8)</li>
-  <li>Paper: <a href="https://arxiv.org/abs/2508.12445">https://arxiv.org/abs/2508.12445</a></li>
-  <li>Code: <a href="https://github.com/shayankebriti/FractMorph">https://github.com/shayankebriti/FractMorph</a></li>
-</ul>
+  <style>
+    :root{
+      --bg: #0b1220;
+      --card: rgba(255,255,255,.08);
+      --card2: rgba(255,255,255,.06);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.70);
+      --muted2: rgba(255,255,255,.55);
+      --border: rgba(255,255,255,.12);
+      --accent: #4aa3ff;
+      --accent2: #7cdbff;
+      --chip: rgba(74,163,255,.14);
+      --shadow: 0 10px 35px rgba(0,0,0,.35);
+    }
 
-<h2>Perfusion MRI Analysis Toolkit</h2>
-<p><strong>Clinical perfusion MRI analysis pipeline</strong></p>
-<ul>
-  <li>Preprocessing, BET-based segmentation for complex tumour cases, quantitative perfusion metrics</li>
-  <li>Availability: internally deployed clinical software (not publicly released)</li>
-</ul>
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background:
+        radial-gradient(1200px 700px at 10% 10%, rgba(74,163,255,.20), transparent 55%),
+        radial-gradient(900px 600px at 90% 20%, rgba(124,219,255,.18), transparent 55%),
+        radial-gradient(900px 600px at 60% 90%, rgba(155,89,255,.14), transparent 60%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
 
-<h2>Cardiac Mesh Reconstruction &amp; MedMesh</h2>
-<p><strong>GNN-supervised template-based deformation for 3D cardiac meshes</strong></p>
-<ul>
-  <li>Research focus: global context–aware mesh reconstruction for in-silico trials</li>
-  <li>Supporting software: <a href="https://github.com/shayankebriti/MedMesh">https://github.com/shayankebriti/MedMesh</a></li>
-</ul>
+    a{
+      color: var(--accent2);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(124,219,255,.35);
+    }
+    a:hover{ border-bottom-color: rgba(124,219,255,.9); }
+
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 44px 18px 70px;
+    }
+
+    .hero{
+      display:flex;
+      gap: 18px;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .title{
+      margin:0;
+      font-size: clamp(26px, 3vw, 34px);
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    .subtitle{
+      margin: 10px 0 0;
+      max-width: 70ch;
+      color: var(--muted);
+      font-size: 15.5px;
+    }
+
+    .pillbar{
+      display:flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap: 8px;
+      padding: 7px 10px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.04);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 12.5px;
+      backdrop-filter: blur(10px);
+    }
+    .dot{
+      width: 8px;
+      height: 8px;
+      border-radius: 99px;
+      background: var(--accent);
+      box-shadow: 0 0 0 3px rgba(74,163,255,.18);
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .card{
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, var(--card), var(--card2));
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      backdrop-filter: blur(12px);
+    }
+
+    .card-inner{
+      padding: 18px 18px 16px;
+    }
+
+    .card-head{
+      display:flex;
+      align-items:flex-start;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .project{
+      margin:0;
+      font-size: 18px;
+      letter-spacing: -0.01em;
+    }
+
+    .tagrow{
+      display:flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items:center;
+      margin-top: 8px;
+    }
+
+    .chip{
+      font-size: 12px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(74,163,255,.25);
+      background: var(--chip);
+      color: rgba(224,244,255,.95);
+      white-space: nowrap;
+    }
+
+    .meta{
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      max-width: 90ch;
+    }
+
+    .section{
+      margin-top: 14px;
+      border-top: 1px solid rgba(255,255,255,.10);
+      padding-top: 14px;
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 14px;
+    }
+
+    @media (max-width: 860px){
+      .section{ grid-template-columns: 1fr; }
+    }
+
+    .k{
+      margin:0 0 8px;
+      color: rgba(255,255,255,.88);
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+    }
+
+    ul{
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    li{ margin: 6px 0; }
+
+    .links{
+      display:flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap: 8px;
+      padding: 9px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.05);
+      color: rgba(255,255,255,.90);
+      font-weight: 600;
+      font-size: 13px;
+      text-decoration:none;
+      box-shadow: 0 8px 22px rgba(0,0,0,.22);
+    }
+    .btn:hover{
+      border-color: rgba(124,219,255,.65);
+      background: rgba(255,255,255,.07);
+    }
+
+    .mutednote{
+      color: var(--muted2);
+      font-size: 12.5px;
+      margin-top: 10px;
+    }
+
+    .footer{
+      margin-top: 22px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255,255,255,.10);
+      color: var(--muted2);
+      font-size: 12.5px;
+      display:flex;
+      gap: 10px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.95em;
+      color: rgba(255,255,255,.88);
+      background: rgba(255,255,255,.08);
+      padding: 2px 6px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,.10);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="hero">
+      <div>
+        <h1 class="title">Selected Research Outputs</h1>
+        <p class="subtitle">
+          Curated index of research artefacts referenced in my CV and 2-page portfolio appendix.
+          Public links are provided where permitted; clinical software is described with availability constraints.
+        </p>
+
+        <div class="pillbar">
+          <span class="pill"><span class="dot"></span> Three selected outputs</span>
+          <span class="pill">Medical imaging • robustness • reproducibility</span>
+          <span class="pill">Last updated: <strong style="color:rgba(255,255,255,.88);font-weight:600;">Nov 2025</strong></span>
+        </div>
+      </div>
+
+      <div class="pillbar" style="justify-content:flex-end;">
+        <span class="pill">Shayan Kebriti</span>
+        <span class="pill"><a href="https://shayankebriti.github.io" style="border-bottom:none;">Website</a></span>
+        <span class="pill"><a href="mailto:shayankebriti@gmail.com" style="border-bottom:none;">Email</a></span>
+      </div>
+    </div>
+
+    <div class="grid">
+
+      <!-- FractMorph -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-head">
+            <div>
+              <h2 class="project">FractMorph</h2>
+              <div class="tagrow">
+                <span class="chip">Deformable registration</span>
+                <span class="chip">Transformer</span>
+                <span class="chip">Reproducible code</span>
+              </div>
+              <p class="meta">
+                Multi-domain transformer framework for deformable medical image registration.
+                <br><span style="color:rgba(255,255,255,.78);">
+                Preprint available; journal revision ongoing (Medical Image Analysis, IF 11.8).
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="section">
+            <div>
+              <p class="k">Highlights</p>
+              <ul>
+                <li><strong>Problem:</strong> robust alignment across modalities under anatomical variability and frequency-domain mismatch.</li>
+                <li><strong>Contribution:</strong> multi-domain modelling with spatial + fractional Fourier representations; end-to-end training and evaluation pipeline with ablations.</li>
+                <li><strong>Evidence:</strong> competitive benchmark results; open-source implementation enabling reproduction and extension.</li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="k">Links</p>
+              <div class="links">
+                <a class="btn" href="https://arxiv.org/abs/2508.12445">Paper (arXiv)</a>
+                <a class="btn" href="https://github.com/shayankebriti/FractMorph">Code (GitHub)</a>
+              </div>
+              <div class="mutednote">Tip: panel members can validate quickly from a single codebase and preprint.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Perfusion MRI -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-head">
+            <div>
+              <h2 class="project">Perfusion MRI Analysis Toolkit</h2>
+              <div class="tagrow">
+                <span class="chip">Clinical pipeline</span>
+                <span class="chip">BET-based segmentation</span>
+                <span class="chip">Quantitative perfusion</span>
+              </div>
+              <p class="meta">
+                Clinical-facing perfusion MRI pipeline designed under real deployment constraints.
+                <br><span style="color:rgba(255,255,255,.78);">
+                Availability: internal clinical software (not publicly released).
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="section">
+            <div>
+              <p class="k">Highlights</p>
+              <ul>
+                <li><strong>Problem:</strong> reliable perfusion quantification requires robust preprocessing and segmentation under heterogeneous tumour appearances.</li>
+                <li><strong>Contribution:</strong> preprocessing modules, <strong>BET-based segmentation workflows</strong> for complex tumour cases, interactive ROI tools, quantitative perfusion metrics.</li>
+                <li><strong>Evidence:</strong> validated metric computation via independent numerical integration (trapezoidal &amp; Simpson’s rules) and cross-checks against existing workflows on clinical cases.</li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="k">Availability</p>
+              <div class="mutednote">
+                Not publicly released due to clinical deployment and governance constraints.
+                Documentation/demonstrations can be provided upon request where permitted.
+              </div>
+              <div class="mutednote" style="margin-top:10px;">
+                (If you later obtain permission, you can link a de-identified demo or a methods-only repo.)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cardiac mesh + MedMesh -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-head">
+            <div>
+              <h2 class="project">Cardiac Mesh Reconstruction &amp; MedMesh</h2>
+              <div class="tagrow">
+                <span class="chip">3D anatomy</span>
+                <span class="chip">GNN supervision</span>
+                <span class="chip">In-silico trials</span>
+              </div>
+              <p class="meta">
+                Structure-aware template-based deformation for automated 3D cardiac mesh reconstruction, supported by <strong>MedMesh</strong> (dataset generation &amp; inspection tooling).
+                <br><span style="color:rgba(255,255,255,.78);">
+                Research and software artefacts available; method development ongoing.
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="section">
+            <div>
+              <p class="k">Highlights</p>
+              <ul>
+                <li><strong>Problem:</strong> existing approaches often use CNN features only, which can miss global anatomical context needed for accurate meshes.</li>
+                <li><strong>Contribution:</strong> propose <strong>GNN-based segmentation supervision</strong> to capture local + global context and improve mesh fidelity; implemented supporting dataset/pipeline tooling via MedMesh.</li>
+                <li><strong>Evidence:</strong> reproducible software artefacts for dataset generation and inspection; designed for downstream simulation and in-silico trial workflows.</li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="k">Links</p>
+              <div class="links">
+                <a class="btn" href="https://github.com/shayankebriti/MedMesh">MedMesh (GitHub)</a>
+              </div>
+              <div class="mutednote">You can later add a short preprint link here when available.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <div>
+        Suggested citation: <code>Shayan Kebriti — Selected Research Outputs</code>
+      </div>
+      <div>
+        Back to: <a href="https://shayankebriti.github.io">shayankebriti.github.io</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
