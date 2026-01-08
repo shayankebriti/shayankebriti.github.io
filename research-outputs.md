@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Selected Research Outputs
 permalink: /research-outputs/
 ---
