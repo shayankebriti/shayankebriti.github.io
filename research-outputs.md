@@ -1,9 +1,3 @@
----
-layout: default
-title: Selected Research Outputs
-permalink: /research-outputs/
----
-
 ## Selected Research Outputs
 
 This page indexes selected research artefacts referenced in my CV and research portfolio.
